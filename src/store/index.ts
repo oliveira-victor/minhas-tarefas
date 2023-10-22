@@ -2,7 +2,7 @@ import { configureStore } from '@reduxjs/toolkit'
 
 import tarefasReducer from './reducers/tarefas'
 
-const store = -configureStore({
+const store = configureStore({
   reducer: {
     tarefas: tarefasReducer
   }
